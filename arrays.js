@@ -8,10 +8,10 @@ function destructivelyAddElementToBeginningOfArray(arry,element) {
   return arry.unshift(element)
 }
 function addElementToEndOfArray(arry, element){
-  return [...chocolateBars, candyString];
+  return [...arry, element];
 }
  
-function destructivelyAddElementToEndOfArray(chocolateBars, candyString){
-  chocolateBars.push(candyString);
-  return chocolateBars;
+function destructivelyAddElementToEndOfArray(arry, element){
+   return chocolateBars.push(element);
+ 
 }
