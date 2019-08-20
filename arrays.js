@@ -14,8 +14,8 @@ function destructivelyAddElementToEndOfArray(arry, element){
    return arry.push(element);
  
 }
-function accessElementInArray(array, index){
-  return array[index];
+function accessElementInArray(arry, index){
+  return arry[index];
 }
 function destructivelyRemoveElementFromBeginningOfArray(arry){
    return arry.shift();
