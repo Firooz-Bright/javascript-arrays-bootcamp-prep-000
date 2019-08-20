@@ -7,3 +7,11 @@ function addElementToBeginningOfArray(arry, element){
 function destructivelyAddElementToBeginningOfArray(arry,element) {
   return arry.unshift(element)
 }
+function addElementToEndOfArray(arry, element){
+  return [...chocolateBars, candyString];
+}
+ 
+function destructivelyAddElementToEndOfArray(chocolateBars, candyString){
+  chocolateBars.push(candyString);
+  return chocolateBars;
+}
